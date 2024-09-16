@@ -30,7 +30,7 @@ $ sudo sudo docker-compose up
 ### Make sure port 8000 is open for your EC2 intance
 
 Step 1: Select Your EC2 Instance
-  Select the EC2 instance for which you want to open port 3000.
+  Select the EC2 instance for which you want to open port 8000.
 
 Step 2: Click on the Security Group for Your Instance
   Click on the security group associated with your EC2 instance. A security group acts as a virtual firewall for your   instance, controlling inbound and outbound traffic.
