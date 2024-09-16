@@ -1,9 +1,16 @@
 # django-todo
 A simple todo app built with django and hosted on AWS EC2 instance using Docker.
 
-![todo App](https://raw.githubusercontent.com/shreys7/django-todo/develop/staticfiles/todoApp.png)
-### Setup
-To get this repository, run the following command inside your git enabled terminal
+![todo App](https://raw.githubusercontent.com/tabish-605/Todo-basic-project/develop/staticfiles/todoApp.png)
+### Required packages
+git, docker
+
+```bash
+$ sudo install git -y
+$ sudo install docker -y
+```
+### Setups
+To get this repository, run the following command in your EC2 instance 
 ```bash
 $ git clone https://github.com/tabish-605/Todo-basic-project.git
 ```
