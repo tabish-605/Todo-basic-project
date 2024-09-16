@@ -12,12 +12,13 @@ $ sudo curl -L https://github.com/docker/compose/releases/latest/download/docker
 $ sudo chmod +x /usr/local/bin/docker-compose
 $ sudo docker-compose version
 ```
-### Setups
+### GitHub cloning
 To get this repository, run the following command in your EC2 instance 
 ```bash
 $ git clone https://github.com/tabish-605/Todo-basic-project.git
 ```
 ### Working directory
+Go inside the directory where you have cloned project files
 ```bash
 cd /home/ec2-user/Todo-basic-project
 ```
