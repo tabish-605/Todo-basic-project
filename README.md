@@ -3,23 +3,23 @@ A simple todo app built with django and hosted on AWS EC2 instance using Docker.
 
 ![todo App](https://raw.githubusercontent.com/tabish-605/Todo-basic-project/develop/staticfiles/todoApp.png)
 ### Required packages
-git, docker
+git, docker, docker-compose
 
 ```bash
-$ sudo install git -y
-$ sudo install docker -y
+$ sudo yum install git -y
+$ sudo yum install docker -y
+$ sudo curl -L https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m) -o     /usr/local/bin/docker-compose
+$ sudo chmod +x /usr/local/bin/docker-compose
+$ docker-compose versio
 ```
 ### Setups
 To get this repository, run the following command in your EC2 instance 
 ```bash
 $ git clone https://github.com/tabish-605/Todo-basic-project.git
 ```
-You will need django to be installed in you computer to run this app. Head over to https://www.djangoproject.com/download/ for the download guide
-
-Once you have downloaded django, go to the cloned repo directory and run the following command
-
+### Working directory
 ```bash
-$ python manage.py makemigrations
+cd /home/ec2-user/Todo-basic-project
 ```
 
 This will create all the migrations file (database migrations) required to run this App.
