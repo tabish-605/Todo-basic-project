@@ -1,4 +1,4 @@
-# django-todo
+# django-todo-project
 A simple todo app built with django and hosted on AWS EC2 instance using Docker.
 
 ![todo App](https://raw.githubusercontent.com/tabish-605/Todo-basic-project/develop/staticfiles/todoApp.png)
@@ -12,7 +12,7 @@ $ sudo curl -L https://github.com/docker/compose/releases/latest/download/docker
 $ sudo chmod +x /usr/local/bin/docker-compose
 $ sudo docker-compose version
 ```
-### start docker service
+### Start docker
 ```bash
 $ sudo service docker start
 ```
