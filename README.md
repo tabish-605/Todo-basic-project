@@ -1,5 +1,5 @@
 # django-todo
-A simple todo app built with django
+A simple todo app built with django and hosted on AWS EC2 instance using Docker.
 
 ![todo App](https://raw.githubusercontent.com/shreys7/django-todo/develop/staticfiles/todoApp.png)
 ### Setup
