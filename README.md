@@ -15,7 +15,7 @@ $ sudo docker-compose version
 ### start docker service
 ```bash
 $ sudo service docker start
-
+```
 ### GitHub cloning
 To get this repository, run the following command in your EC2 instance 
 ```bash
