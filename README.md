@@ -10,7 +10,7 @@ $ sudo yum install git -y
 $ sudo yum install docker -y
 $ sudo curl -L https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m) -o     /usr/local/bin/docker-compose
 $ sudo chmod +x /usr/local/bin/docker-compose
-$ docker-compose versio
+$ sudo docker-compose version
 ```
 ### Setups
 To get this repository, run the following command in your EC2 instance 
@@ -21,25 +21,12 @@ $ git clone https://github.com/tabish-605/Todo-basic-project.git
 ```bash
 cd /home/ec2-user/Todo-basic-project
 ```
-
-This will create all the migrations file (database migrations) required to run this App.
-
-Now, to apply this migrations run the following command
+### Run
+One last step and then our todo App will be live. We need start docker-compose.
 ```bash
-$ python manage.py migrate
+$ sudo sudo docker-compose up
 ```
 
-One last step and then our todo App will be live. We need to create an admin user to run this App. On the terminal, type the following command and provide username, password and email for the admin user
-```bash
-$ python manage.py createsuperuser
-```
-
-That was pretty simple, right? Now let's make the App live. We just need to start the server now and then we can start using our simple todo App. Start the server by following command
-
-```bash
-$ python manage.py runserver
-```
-
-Once the server is hosted, head over to http://127.0.0.1:8000/todos for the App.
+Once the server is hosted, head over to http://EC2-public-ip:8000 (Example- http://10.22.113.60:8000)
 
 Cheers and Happy Coding :)
